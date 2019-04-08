@@ -17,7 +17,9 @@ ls
 pip install django
 
 6.check list
-pip freeze
+pip freeze 
+pip freeze > requirements.txt
+pip install -r requirements.txt
 
 7. now create new app
 django-admin.py startproject todo
